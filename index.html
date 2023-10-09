@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMOGH PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            height: 90px;
+            background-color:rgb(6, 6, 48); ;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+           list-style:none; 
+           margin:0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+           
+           color: rgb(169, 169, 209);
+           font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background:#1e2167;
+            color: white;
+            border:2px solid white;
+            border-radius: 6px;
+            font-size :20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width:80%;
+            margin: 30px;
+        }
+        .purple{
+            color: rgb(170, 107, 228);
+        }
+        #element{
+            color: rgb(170, 107, 228);
+
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh ;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height:5px;
+            margin: 40px 60px;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secondSection .box{
+            background:white;
+            width:80vw;
+            height:2px;
+            margin:56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height:93px;
+            width:1px;
+            background-color:white;
+            margin:0 180px;
+
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+        footer{
+            background-color: rgb(71, 30, 110);
+
+        }
+
+        .footer{
+            display:flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding:12px ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Amogh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>                    
+                    <li><a href="About.html">About</a></li></a>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi, My name is <span class="purple">Amogh</span> 
+            <div> and I am a passionate IT professional </div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button> <a href=Amogh.pdf Resume>Download Resume</a></button>
+                <button class="btn"> <a href="https://github.com/AmoghARK" target="_blank">Visit Github</a></button>
+                    
+            </div>
+        </div>
+        <div class="rightSection">
+           <img src="1.png" alt="">
+        </div>   
+    </section>
+    <hr>
+
+    <section class="secondSection">
+        <span class="text-gray">What i Have  done so far</span>
+        <h1>  Projects</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="python-logo-only.png" alt="">
+                <div class="vertical-title">
+                    Admission predictor web 
+                </div>
+                <div class="vertical-desc">
+                    Built a predictive model using pipeline infrastructure and multiple linear regression predicting probabilities of procuring admission within threshold and deployed using Streamlit, a web based interactive model.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="python-logo-only.png" alt="">
+                <div class="vertical-title">
+                    Traffic Density Detector
+                </div>
+                <div class="vertical-desc">
+                    The main goal of the Traffic Density Detection project is to measure real-time traffic density accurately. This data is used to optimize traffic signals, reduce congestion, enhance road safety, and improve traffic management.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="C++.png" alt="">
+                <div class="vertical-title">
+                    Fire Fighting Bot  
+                </div>
+                <div class="vertical-desc">
+                    
+The IoT Fire Fighting Bot project creates an autonomous robot for fire detection and extinguishing in diverse settings. IoT tech enables remote control and data collection from various sensors, improving firefighting effectiveness..
+                </div>
+            </div>
+           
+             
+            
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="first">
+            <h3>Amogh's Developer Portfolio</h3>
+        </div>
+        <div class="second">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Address</li>
+            </ul>
+        </div>
+        <div class="third">
+            <ul>
+                <li>Web Services</li>
+                <li>IT Student</li>
+                <li>+91 9892355832</li>
+                <li>Dadar, Mumbai</li>
+            </ul>
+        </div>
+        
+    
+    <div class="footer-rights">
+       Copyright &#169;amoghportfolio.com | All rights reserved
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer',''],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

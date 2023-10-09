@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMOGH PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            height: 90px;
+            background-color:rgb(6, 6, 48); ;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+           list-style:none; 
+           margin:0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+           
+           color: rgb(169, 169, 209);
+           font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background:#1e2167;
+            color: white;
+            border:2px solid white;
+            border-radius: 6px;
+            font-size :20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width:80%;
+            margin: 30px;
+        }
+        .purple{
+            color: rgb(170, 107, 228);
+        }
+        #element{
+            color: rgb(170, 107, 228);
+
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh ;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height:5px;
+            margin: 40px 60px;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secondSection .box{
+            background:white;
+            width:80vw;
+            height:2px;
+            margin:56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height:93px;
+            width:1px;
+            background-color:white;
+            margin:0 180px;
+
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+        footer{
+            background-color: rgb(71, 30, 110);
+
+        }
+
+        .footer{
+            display:flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding:12px ;
+
+        }
+
+        /* Center-align the table */
+        table {
+            margin: 0 auto;
+        }
+
+        /* Center-align the certifications */
+        #certifications {
+            text-align: center;
+        }
+
+        /* Add padding to table cells */
+        table th,
+        table td {
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Home Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>                    
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="academic-marks">
+            <marquee direction="right" scrollamount="6">
+            <h2>Academic Marks</h2>
+            </marquee>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Course</th>
+                        <th>Mark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023</td>
+                        <td>Bachelor's Degree in Information Technology</td>
+                        <td>9.12 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>12th Science</td>
+                        <td>64%</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>10th</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id="certifications">
+            <marquee direction="right" scrollamount="6">
+            <h2>Certifications</h2>
+            </marquee>
+            <ul>
+                <li>
+                    <h3>Introduction to Programming using JavaScript</h3>
+                    <p>Microsoft Technology Associate</p>
+                </li>
+                <li>
+                    <h3>Python For Data Science</h3>
+                    <p>Issued by EXCELR</p>
+                </li>
+                <li>
+                    <h3>Android Jetpack Compose</h3>
+                    <p>Google Developer Student Clubs</p>
+                </li>
+                <li>
+                    <h3>Tantra-Dnyan: Mini Project Exhibition</h3>
+                    <p>Issued by VSIT</p>
+                </li>
+                <li>
+                    <h3>AAVISHKAR</h3>
+                    <p>Issued by University Of Mumbai</p>
+                </li>
+                <li>
+                    <h3>Tantravihar</h3>
+                    <p>Issued by VSIT</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Academic Portfolio</p>
+    </footer>
+</body>
+</html>

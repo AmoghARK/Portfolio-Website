@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Amogh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(6, 6, 48);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(169, 169, 209);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .page-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .projects {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            border: 1px solid #444;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+        }
+
+        .project p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: rgb(71, 30, 110);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Amogh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="page-content">
+            <div class="projects">
+                <h2>Projects</h2>
+            </div>
+            <div class="project">
+                <h3>Admission predictor web</h3>
+                <p> Built a predictive model using pipeline infrastructure and multiple linear regression predicting probabilities of procuring admission within threshold and deployed using Streamlit, a web based interactive model.The objective of the Admission Predictor Web Project is to create a web-based application that leverages machine learning algorithms to predict a student's likelihood of gaining admission to an educational institution based on their academic credentials and other relevant factors</p>
+            </div>
+            <div class="project">
+                <h3>Fire Fighting Bot</h3>
+                <p>A Fire Fighting Bot IoT (Internet of Things) project is designed to create an autonomous robot that can detect and extinguish fires in various environments. This project leverages IoT technologies to monitor and control the robot remotely while gathering data from various sensors for efficient fire detection and firefighting.</p>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Amogh Portfolio</p>
+    </footer>
+</body>
+</html>
